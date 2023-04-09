@@ -1,0 +1,230 @@
+/*
+font-family: 'Hanken Grotesk', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 1;  
+}
+
+.container {
+    max-width: 120rem;
+    margin: 15rem auto;
+    padding: 0 40rem;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+/*********************
+******LEFT**********
+********************/
+
+.left-div {
+    width: 60%;
+    height: 35rem;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: linear-gradient(
+        hsl(252, 100%, 67%), 
+        hsl(241, 81%, 54%)
+    )
+}
+
+.left-header {
+    color: rgba(255, 255, 255, 0.647);
+    font-size: 1.6rem;
+   margin-top: -1rem;
+}
+
+.left-round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.2rem 4rem;
+    border-radius: 100%;
+    color: hsl(0, 0%, 100%);
+    font-size: 5rem;
+    font-weight: 700;
+    background: linear-gradient(
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    )
+
+}
+.left-round p:last-child {
+    color: rgba(255, 255, 255, 0.48);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .left-header-zwei {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-heder-drei {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2rem;
+  }
+
+  .left-header-drei-exam {
+    color: rgba(255, 255, 255, 0.647);
+  }
+
+  .left-header-zwei:last-child {
+    color: rgba(255, 255, 255, 0.542);
+    font-size: 1.1rem;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 1rem;
+    margin-left: 0.7rem; }
+
+/*********************
+******RIGHT**********
+********************/
+
+.right-div {
+    width: 60%;
+    height: 35rem;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.067);    
+    gap: 2rem;
+}
+
+
+.right-heder {
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+}
+
+.ein {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    background-color: hsl(0, 91%, 87%);
+    border-radius: 6px;
+    width: 18rem;
+    margin-left: 1rem;
+}
+
+.right-exam {
+    padding: 1rem 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+.one {
+    background-color: hsl(0, 91%, 87%);
+}
+
+
+.red {
+    color: hsl(0, 100%, 67%);
+    padding-right: 6rem;
+}
+
+.red-btn {
+    margin-left: -1.5rem;
+    padding-right: 0.5rem;
+    color: hsl(0, 100%, 67%);
+}
+
+.achtzig {
+ margin-right: 0.5rem;   
+}
+
+.einhundert {
+    color: rgba(0, 0, 0, 0.505);
+  
+}
+
+.yellow {
+    color: hsl(39, 100%, 56%);
+    padding-right: 6rem;
+}
+
+.yellow-btn {
+    margin-left: -1.5rem;
+    padding-right: 0.5rem;
+}
+
+.two {
+    background-color: hsl(38, 85%, 89%);
+}
+
+.green {
+    color: hsl(166, 100%, 37%);
+    padding-right: 7rem;
+}
+
+.green-btn {
+    margin-left: -1.5rem;
+    padding-right: 0.5rem;
+}
+
+.three {
+    background-color: hsl(165, 85%, 85%);
+}
+
+.purple {
+    color: hsl(234, 85%, 45%);
+    padding-right: 7rem;
+}
+
+.purple-btn {
+    margin-left: -1.5rem;
+    padding-right: 0.5rem;
+}
+
+.four {
+    background-color: hsl(233, 100%, 95%);
+}
+
+
+/*********************
+******BUTTON**********
+********************/
+
+.btn {
+  margin-left: 1.2rem;
+  padding: 1rem 6.5rem;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+}

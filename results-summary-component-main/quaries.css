@@ -1,0 +1,64 @@
+/*********************/
+/* MOBILE 544px (Mobile) */
+/*********************/
+
+@media (max-width: 34em) {
+
+    .container {
+        /* 1140px */
+        max-width: 80rem;
+        padding: 0 1rem;
+        margin: 0 auto;
+        margin-left: 14rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+.left-div {
+    display: block;
+    z-index: 999;
+    background-color: hsl(241, 81%, 54%);
+    padding-bottom: -9rem;
+    height: 28rem;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.left-header {
+margin-top: 2rem;
+margin-left: 6.4rem;
+margin-bottom: 2rem;
+font-size: 1.4rem;
+}
+
+.left-round {
+    width: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.6rem;
+    padding: 2rem 6rem;
+}
+
+.einhunderd {
+    width: 4rem;
+    font-size: 1rem;
+    margin-top: -1rem;
+}
+
+.left-header-zwei {
+    margin-left: 9rem;
+}
+
+.left-heder-drei {
+    margin-left: 6rem;
+}
+
+.left-header-drei-exam {
+    text-align: center;
+    width: 20rem;
+    margin-left: 8rem;
+    font-size: 1.2rem;
+}
+}
